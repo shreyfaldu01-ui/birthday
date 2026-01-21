@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <canvas id="confetti-canvas"></canvas>
+
+    <main>
+        <!-- specific section for hero -->
+        <section id="hero" class="hero">
+            <div class="hero__content">
+                <h1 class="hero__title">
+                    <span class="reveal-text">Happy Birthday </span>
+                    <span class="reveal-text gradient-text">Kavya!</span>
+                </h1>
+                <p class="hero__subtitle reveal-text delay-1">Wishing you a day filled with wonder and joy.</p>
+                <button id="celebrate-btn" class="btn primary-btn reveal-text delay-2">Celebrate Now</button>
+            </div>
+            <div class="hero__visual">
+                <!-- Decorative animated balloon/shapes -->
+                <div class="floating-shape shape-1"></div>
+                <div class="floating-shape shape-2"></div>
+                <div class="floating-shape shape-3"></div>
+            </div>
+        </section>
+
+        <!-- specific section for message -->
+        <section id="message" class="message-section">
+            <div class="container">
+                <div class="glass-card">
+                    <h2 class="section-title">A Special Wish</h2>
+                    <p class="wish-text">
+                        "Another adventure-filled year awaits you. Welcome it by celebrating your birthday with pomp and
+                        splendor. Dwarkadhis always bless you.
+                        Wishing you a very happy and fun-filled birthday!"
+                    </p>
+                    <div class="shimmer-line"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- specific section for gallery/memories -->
+        <section id="memories" class="memories-section">
+            <div class="container">
+                <h2 class="section-title">Memories</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item item-1"><span>✨</span></div>
+                    <div class="gallery-item item-2"><span>🎉</span></div>
+                    <div class="gallery-item item-3"><span>🎂</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- specific section for gift -->
+        <section id="gift" class="gift-section">
+            <div class="container">
+                <h2 class="section-title">A Surprise For You</h2>
+                <div class="gift-box-container" id="gift-box">
+                    <div class="gift-box">
+                        <div class="gift-lid"></div>
+                        <div class="gift-body"></div>
+                        <div class="gift-bow"></div>
+                    </div>
+                    <div class="gift-content">
+                        <h3>Here's to You! 🥂</h3>
+                        <p>May all your dreams come true this year.</p>
+                    </div>
+                </div>
+                <p class="click-hint">Tap the box to open!</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Made with ❤️ just for you.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
